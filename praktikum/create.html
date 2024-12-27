@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Tempusdominus Bootstrap 4 -->
+  <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+  <!-- summernote -->
+  <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
+</head>
+<body>
+                    <nav class="navbar navbar-expand navbar-primary navbar-dark">
+                      <!-- Left navbar links -->
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+                        </li>
+                        <li class="nav-item d-none d-sm-inline-block">
+                          <a href="../../index3.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item d-none d-sm-inline-block">
+                          <a href="#" class="nav-link">Contact</a>
+                        </li>
+                      </ul>
+                      </nav>
+
+                      <div class="card card-warning">
+                        <div class="card-header">
+                          <h3 class="card-title">General Elements</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                          <form>
+                            <div class="row">
+                              <div class="col-sm-6">
+                                <!-- text input -->
+                                <div class="form-group">
+                                  <label>Text</label>
+                                  <input type="text" class="form-control" placeholder="Enter ...">
+                                </div>
+                              </div>
+                              <div class="col-sm-6">
+                                <div class="form-group">
+                                  <label>Text Disabled</label>
+                                  <input type="text" class="form-control" placeholder="Enter ..." disabled>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-sm-6">
+                                <!-- textarea -->
+                                <div class="form-group">
+                                  <label>Textarea</label>
+                                  <textarea class="form-control" rows="3" placeholder="Enter ..."></textarea>
+                                </div>
+                              </div>
+                              <div class="col-sm-6">
+                                <div class="form-group">
+                                  <label>Textarea Disabled</label>
+                                  <textarea class="form-control" rows="3" placeholder="Enter ..." disabled></textarea>
+                                </div>
+                              </div>
+                            </div>
+          
+                            <!-- input states -->
+                            <div class="form-group">
+                              <label class="col-form-label" for="inputSuccess"><i class="fas fa-check"></i> Input with
+                                success</label>
+                              <input type="text" class="form-control is-valid" id="inputSuccess" placeholder="Enter ...">
+                            </div>
+                            <div class="form-group">
+                              <label class="col-form-label" for="inputWarning"><i class="far fa-bell"></i> Input with
+                                warning</label>
+                              <input type="text" class="form-control is-warning" id="inputWarning" placeholder="Enter ...">
+                            </div>
+                            <div class="form-group">
+                              <label class="col-form-label" for="inputError"><i class="far fa-times-circle"></i> Input with
+                                error</label>
+                              <input type="text" class="form-control is-invalid" id="inputError" placeholder="Enter ...">
+                            </div>
+          
+                            <div class="row">
+                              <div class="col-sm-6">
+                                <!-- checkbox -->
+                                <div class="form-group">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label">Checkbox</label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" checked>
+                                    <label class="form-check-label">Checkbox checked</label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" disabled>
+                                    <label class="form-check-label">Checkbox disabled</label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-sm-6">
+                                <!-- radio -->
+                                <div class="form-group">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="radio1">
+                                    <label class="form-check-label">Radio</label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="radio1" checked>
+                                    <label class="form-check-label">Radio checked</label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" disabled>
+                                    <label class="form-check-label">Radio disabled</label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+          
+                            <div class="row">
+                              <div class="col-sm-6">
+                                <!-- select -->
+                                <div class="form-group">
+                                  <label>Select</label>
+                                  <select class="form-control">
+                                    <option>option 1</option>
+                                    <option>option 2</option>
+                                    <option>option 3</option>
+                                    <option>option 4</option>
+                                    <option>option 5</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="col-sm-6">
+                                <div class="form-group">
+                                  <label>Select Disabled</label>
+                                  <select class="form-control" disabled>
+                                    <option>option 1</option>
+                                    <option>option 2</option>
+                                    <option>option 3</option>
+                                    <option>option 4</option>
+                                    <option>option 5</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+          
+                            <div class="row">
+                              <div class="col-sm-6">
+                                <!-- Select multiple-->
+                                <div class="form-group">
+                                  <label>Select Multiple</label>
+                                  <select multiple class="form-control">
+                                    <option>option 1</option>
+                                    <option>option 2</option>
+                                    <option>option 3</option>
+                                    <option>option 4</option>
+                                    <option>option 5</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="col-sm-6">
+                                <div class="form-group">
+                                  <label>Select Multiple Disabled</label>
+                                  <select multiple class="form-control" disabled>
+                                    <option>option 1</option>
+                                    <option>option 2</option>
+                                    <option>option 3</option>
+                                    <option>option 4</option>
+                                    <option>option 5</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                          <h3 class="card-title">Striped Full Width Table</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body p-0">
+                          <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th style="width: 10px">#</th>
+                                <th>Task</th>
+                                <th>Progress</th>
+                                <th style="width: 40px">Label</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>1.</td>
+                                <td>Update software</td>
+                                <td>
+                                  <div class="progress progress-xs">
+                                    <div class="progress-bar progress-bar-danger" style="width: 55%"></div>
+                                  </div>
+                                </td>
+                                <td><span class="badge bg-danger">55%</span></td>
+                              </tr>
+                              <tr>
+                                <td>2.</td>
+                                <td>Clean database</td>
+                                <td>
+                                  <div class="progress progress-xs">
+                                    <div class="progress-bar bg-warning" style="width: 70%"></div>
+                                  </div>
+                                </td>
+                                <td><span class="badge bg-warning">70%</span></td>
+                              </tr>
+                              <tr>
+                                <td>3.</td>
+                                <td>Cron job running</td>
+                                <td>
+                                  <div class="progress progress-xs progress-striped active">
+                                    <div class="progress-bar bg-primary" style="width: 30%"></div>
+                                  </div>
+                                </td>
+                                <td><span class="badge bg-primary">30%</span></td>
+                              </tr>
+                              <tr>
+                                <td>4.</td>
+                                <td>Fix and squish bugs</td>
+                                <td>
+                                  <div class="progress progress-xs progress-striped active">
+                                    <div class="progress-bar bg-success" style="width: 90%"></div>
+                                  </div>
+                                </td>
+                                <td><span class="badge bg-success">90%</span></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <!-- /.card-body -->
+                      </div>
+                      <!-- /.card -->
+                    </div>
+                    <!-- /.col -->
+                  </div>
+
+                  <td>
+                    <button type="button" class="btn btn-block btn-default btn-xs">Default</button>
+                  </td>
+
+</body>
+</html>
